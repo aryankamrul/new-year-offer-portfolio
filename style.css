@@ -1,0 +1,267 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+
+.banner{
+
+    max-width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+
+    background:
+        linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+        url("./images/Banner Image.png") center/cover no-repeat;
+
+    display: grid;
+    place-items: center;
+    border-radius: 16px;
+}
+
+.banner-content{
+    text-align: center;
+    color: #fff;
+}
+
+.banner-subtitle{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.banner-title{
+    font-size: 4rem;
+    line-height: 1.2;
+}
+
+
+section{
+    padding: 80px 8%;
+}
+
+.parent-container .top{
+    text-align: center;
+}
+.parent-container img{
+width: 300px;
+height: auto;
+display: block;
+margin: 0 auto;
+}
+ .top h1,
+ .top,p{
+    color: #FF0000;
+}
+/*img section*/
+.img-container{
+    position: relative;
+}
+
+.img-container img{
+    max-width: 100%;
+display: block;
+    border-radius: 10px;
+}
+.first{
+  /*  width: 300px;
+    position: absolute;
+    top: 16px;
+    left:30px;
+    color: white;*/
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    transform: translateY(-50%);
+    width: 450px;
+    color: white;
+}
+.first p{
+    color: white;
+    font-size: 12px;
+}
+.first h3{
+    font-size: 40px;
+}
+.first h5{
+    font-size: 20px;
+}
+/* time section*/
+.event{
+    width: 80%;
+    margin: 80px auto;
+    background: #fff5f5;
+    padding: 80px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.time-section p{
+    color:#070211;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.time-section span{
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 26px;
+}
+.event button{
+margin-top: 20px;
+    padding: 10px 12px;
+    background-color:#FF0000 ;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    color: #fff;
+
+}
+.event button:hover {
+    background-color: chocolate;
+
+}
+.comming-son{
+    margin: 100px 0;
+}
+.comming-soon-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.offer-content,
+.offer-year{
+    flex: 1;
+    
+    
+}
+.offer-img{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.offer-img img{
+width: 350px;
+    height: 350px;
+    border: 12px solid red;
+    border-radius: 50%;
+    padding: 20px;
+
+}
+.offer-content h4{
+    color:#FF0000 ;
+    margin-bottom:10px ;
+}
+.offer-content h2{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.offer-content p{
+    color: rgb(122, 113, 113);
+    margin-top: 10px;
+}
+.offer-year h2{
+    color: #FF0000;
+    margin-bottom: 10px;
+}
+.offer-year p{
+    color: rgb(122, 113, 113);
+    margin-bottom: 10px;
+}
+
+
+
+}
+
+.img-box{
+    position: relative;
+}
+.gift-box{
+    position: absolute;
+    left: 80px;
+    bottom: 1;
+    z-index: 2;
+}
+.red-line{
+    position: absolute;
+   left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+
+
+.my-amazing-parent  h2{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.my-amazing-parent p{
+    color: rgb(115, 105, 105);
+   margin-top: 20px;
+}
+.my-amazing-parent .p{
+    font-weight: bold;
+    color:#FF0000;
+    margin-top: 20px;
+}
+ .gallery{
+   margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   gap: 10px;
+}
+.gallery img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.newslatter{
+   
+    margin: 80px 8%;
+    padding: 100px 20px;
+    background-color:#FFF2F2 ;
+}
+.newslatter-container{
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+.newslatter img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.newslatter h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+    margin-bottom: 20px;
+}
+.newslatter p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    color:#615c69 ;
+  
+}
+form{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+form input{
+    flex: 1;
+   padding: 20px 30px; 
+   border: none;
+   outline: none;
+}
+form button{
+    padding: 20px 40px ;
+    background:#FF0000 ;
+    border: none;
+    border-radius: 0 50px 50px 0;
+}
+
+
+
